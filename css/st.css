@@ -1,0 +1,25 @@
+* {
+    margin: 40px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+.image-container {
+    height: 75vh;
+    /* ارتفاع الصفحة بالكامل */
+    /* overflow: hidden; */
+    /* إخفاء أي جزء من الصورة يتجاوز الحدود */
+}
+
+.responsive-image {
+    width: 100%;
+    /* عرض الصورة 100% من الحاوية */
+    height: 100%;
+    /* ارتفاع الصورة 100% من الحاوية */
+    object-fit: cover;
+    /* يجعل الصورة تغطي الحاوية بالكامل مع الحفاظ على نسبة العرض إلى الارتفاع */
+}
